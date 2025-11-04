@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>取引明細</title>
+<style>
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #f7f9fb;
+  margin: 40px auto;
+  max-width: 800px;
+  color: #333;
+}
+h1 {
+  color: #004b8d;
+  border-bottom: 2px solid #004b8d;
+  padding-bottom: 6px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+.table th {
+  background: #eef3f9;
+  text-align: left;
+  width: 30%;
+}
+.amount {
+  text-align: right;
+  font-weight: bold;
+}
+.note {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.6;
+}
+.button {
+  display: inline-block;
+  background: #e6f0ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #004b8d;
+  text-decoration: none;
+}
+.header {
+  background: #004b8d;
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  ローソン銀行　取引明細照会システム（サンプル）
+</div>
+
+<h1>取引明細</h1>
+
+<table class="table">
+<tr><th>取引日</th><td>2019年01月07日</td></tr>
+<tr><th>受付番号</th><td>1000000000883</td></tr>
+<tr><th>ご依頼人</th><td>ショウカイヨキン　カブシキガイシャローソン</td></tr>
+<tr><th>お受取人</th><td>ショウカイヨキン　カブシキガイシャアクションショウケン</td></tr>
+<tr><th>金融機関</th><td>ローソン銀行　本店</td></tr>
+<tr><th>科目</th><td>普通</td></tr>
+<tr><th>振込金額</th><td class="amount">1,000,000円</td></tr>
+<tr><th>振込手数料</th><td class="amount">54円</td></tr>
+<tr><th>合計金額</th><td class="amount">1,000,054円</td></tr>
+<tr><th>状態</th><td>受付完了（振込未承認）</td></tr>
+</table>
+
+<div class="note">
+【ご注意】本画面はサンプル表示です。実際の取引結果とは異なります。
+</div>
+
+<a href="#" class="button">メニューに戻る</a>
+
+</body>
+</html>
